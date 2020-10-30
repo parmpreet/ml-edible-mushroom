@@ -1,0 +1,64 @@
+###
+GET http://127.0.0.1:8000 HTTP/1.1
+
+###
+
+POST http://127.0.0.1:8000/detect HTTP/1.1
+content-type: application/json
+
+{
+    "cap_shape": "x",
+    "cap_surface": "f",
+    "cap_color": "y",
+    "bruises": "t",
+    "odor": "a",
+    "gill_attachment": "f",
+    "gill_spacing": "w",
+    "gill_size": "n",
+    "gill_color": "n",
+    "stalk_shape": "t",
+    "stalk_root": "b",
+    "stalk_surface_above_ring": "s",
+    "stalk_surface_below_ring": "s",
+    "stalk_color_above_ring": "w",
+    "stalk_color_below_ring": "w",
+    "veil_type": "p",
+    "veil_color": "w",
+    "ring_number": "o",
+    "ring_type": "p",
+    "spore_print_color": "n",
+    "population": "v",
+    "habitat": "d"
+}
+
+###
+
+POST http://127.0.0.1:8000/detect HTTP/1.1
+content-type: application/json
+
+{
+    "cap_shape": "x",
+    "cap_surface": "s",
+    "cap_color": "n",
+    "bruises": "t",
+    "odor": "p",
+    "gill_attachment": "f",
+    "gill_spacing": "c",
+    "gill_size": "n",
+    "gill_color": "k",
+    "stalk_shape": "e",
+    "stalk_root": "e",
+    "stalk_surface_above_ring": "s",
+    "stalk_surface_below_ring": "s",
+    "stalk_color_above_ring": "w",
+    "stalk_color_below_ring": "w",
+    "veil_type": "p",
+    "veil_color": "w",
+    "ring_number": "o",
+    "ring_type": "p",
+    "spore_print_color": "k",
+    "population": "s",
+    "habitat": "u"
+}
+
+###
