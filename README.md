@@ -5,11 +5,14 @@ This application uses the Mushroom Classification dataset from https://www.kaggl
 
 FastAPI is used to server the model on the REST API.
 
+REST API can be tested using REST Client extension in VS Code. Extension can be found here: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
 ## Technology stack
 ### Library and packages
 - pycaret
 - FastApi
 - Pandas
+- Jupyter Notebook
 
 ### IDE
 Visual Studio Code
